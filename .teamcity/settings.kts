@@ -34,6 +34,8 @@ project {
 object Build : BuildType({
     name = "Build"
 
+    artifactRules = "target/plaindoll-*.jar"
+
     vcs {
         root(DslContext.settingsRoot)
     }
