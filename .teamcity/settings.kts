@@ -53,7 +53,6 @@ object Build : BuildType({
         maven {
             name = "Maven: test feature branches"
             id = "Maven_test_feature_branches"
-            enabled = false
 
             conditions {
                 doesNotEqual("teamcity.build.branch", "master")
