@@ -1,3 +1,4 @@
 target
 # Nexus credentials
 teamcity/settings.xml
+.teamcity/pluginData/_Self/mavenSettings/
